@@ -1,0 +1,30 @@
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom:2px solid pink;
+	border-right: 2px solid pink;
+	width:400px;
+	text-align:center;
+	margin: 0px;
+}
+img{
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	box-shadow: 2px 2px 3px #888888;
+	transition: all 0.5s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+
+
+/*https://darekkay.com/dev/flexbox-cheatsheet.html*/
+/*https://robots.thoughtbot.com/transitions-and-transforms*/
